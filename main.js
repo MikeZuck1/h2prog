@@ -23,7 +23,7 @@ const mySecondExo = () => {
   console.log("Nom : %s , age : %s , homme : %s", fName, age, homme);
 
   if (homme === true) {
-    console.log("Sexe : homme"); 
+    console.log("Sexe : homme");
   } else {
     console.log("Sexe : Femme");
   }
