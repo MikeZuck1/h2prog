@@ -3,15 +3,17 @@ const getData = () => {
 
   fetch(url)
     .then((res) => res.json())
-    .then((json) => console.log(json))
-}
-// call the function. 
-getData(); 
+    .then((json) => console.log(json));
+};
+// call the function.
+getData();
 
-function getAllDataResssources() {
-    fetch('/product.js')
-        .then((res) => res.json())
-        .then((json) => console.log(json))
+const productData = () => {
+  const urlProduct = "/product.js";
+
+  fetch(urlProduct)
+    .then((res) => res.json())
+    .then((json) => console.log(json));
 };
 
-getAllDataResssources();
+productData(); 
