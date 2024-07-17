@@ -15,5 +15,5 @@ const productData = () => {
     .then((res) => res.json())
     .then((json) => console.log(json));
 };
-
+// call the function.  
 productData(); 

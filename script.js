@@ -6,11 +6,11 @@ const rl = readline.createInterface({
     output: process.stdout,
 });
 
-rl.question('Quelle table de multiplication voulez vous afficher ? ', (res) => {
-    // création de la table de multiplication. 
+// 'Quelle table de multiplication voulez vous afficher ? '
+parseInt(rl.question('Quelle table de multiplication voulez vous afficher ? ', (res) => {
+    // Incrémentation de la table de multiplication. 
     for (let i = 1; i <= 10; i++) {
-        const result = i * res;
-        console.log(``);
+        const result = res * i;
     }
-    rl.close();
-});
+    rl.close(); 
+}));

@@ -19,7 +19,7 @@
     }]
   },
   "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
-  "user": {
+  "user": { 
     "id": 772682964,
     "id_str": "772682964",
     "name": "SitePoint JavaScript",
